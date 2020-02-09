@@ -1,6 +1,6 @@
 
 
-var buttonPaper, buttonRock, buttonScissors;
+let buttonPaper, buttonRock, buttonScissors;
 
 
 buttonRock = document.getElementById('button-rock');
@@ -19,9 +19,8 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-  var computerMove, playerInput, playerMove, randomNumber;
   
-  let argMoveId
+  let argMoveId;
 /**
  * Describe this function...
  */
@@ -58,6 +57,7 @@ function displayResult(argPlayerMove, argComputerMove) {
   }
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
+let computerMove, playerMove, playerInput, randomNumber;
 
 console.log('wybór ruchu gracza to: ' + playerInput);
 playerMove = argButtonName;
