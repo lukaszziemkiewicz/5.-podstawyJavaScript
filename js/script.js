@@ -1,20 +1,25 @@
 
 
-const argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+var buttonPaper, buttonRock, buttonScissors;
 
 
 buttonRock = document.getElementById('button-rock');
 buttonPaper = document.getElementById('button-paper');
 buttonScissors = document.getElementById('button-scissors');
 
+
+let argButtonName
 /**
  * Describe this function...
  */
 function buttonClicked(argButtonName) {
+
+  
+
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-  const argMoveId;
+  var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
 
 /**
  * Describe this function...
@@ -32,7 +37,7 @@ function getMoveName(argMoveId) {
     return 'kamień';
   }
 }
-var argComputerMove, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
+
 /**
  * Describe this function...
  */
