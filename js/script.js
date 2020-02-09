@@ -19,7 +19,7 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-  var argComputerMove, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
+  var computerMove, playerInput, playerMove, randomNumber;
   
   let argMoveId
 /**
@@ -39,6 +39,7 @@ function getMoveName(argMoveId) {
   }
 }
 
+let argComputerMove, argPlayerMove;
 /**
  * Describe this function...
  */
